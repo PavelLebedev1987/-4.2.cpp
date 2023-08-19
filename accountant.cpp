@@ -1,5 +1,5 @@
 #include "accountant.h"
-
+#include "square_calculation.h"
 
 double Accountant::CalcPaintNeeded(const Wall& wall)  {
     double height = wall.GetHeight();
